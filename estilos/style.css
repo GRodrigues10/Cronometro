@@ -33,7 +33,7 @@ h1{
     padding: 20px;
     border-radius: 60px;
     border: 3px solid black;
-    min-width: 500px;
+    
     
 }
 #content{
@@ -42,6 +42,7 @@ h1{
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.425);
     color: white;
+    width: 500px;
 }
 
 #botões button{

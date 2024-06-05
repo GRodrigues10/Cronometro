@@ -17,6 +17,10 @@ function parar(){
         clearInterval(tempo);
         tempo_decorrido = Date.now() - tempo_início;
         rodando = false
+        
+    }
+    else{
+        window.alert('Inicie o Cronômetro para poder pará-lo');
     }
 }
 
@@ -26,7 +30,9 @@ function limpar(){
     tempo_início = 0;
     tempo_decorrido = 0;
     rodando = false;
-    content.textContent = "00:00:00:00"
+    content.textContent = "00:00:00:00";
+   
+    
 } 
 
 
